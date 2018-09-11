@@ -1,0 +1,15 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+    <PropertyGroup>
+        <PackageId>WorkflowsRegex.OrchardCore</PackageId>
+        <Title>Regular Expression Validator for Orchard Core Workflows</Title>
+        <Description>Adds a regular expression validator for form fields to Workflows.</Description>
+        <PackageTags>OrchardCore;Workflows;WorkflowsRegex</PackageTags>
+        <VersionPrefix>1.0.0</VersionPrefix>
+        <VersionSuffix>beta2</VersionSuffix>
+    </PropertyGroup>
+
+    <!-- Called after so that the <VersionSuffix> is built after the local ones -->
+    <Import Project="Common.props"/>
+
+</Project>

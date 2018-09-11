@@ -1,0 +1,6 @@
+@model ActivityViewModel<ValidateFormFieldRegexTask>
+
+<header>
+    <h4><i class="fa fa-shield-alt"></i>@T["Validate <em>{0}</em>", Model.Activity.FieldName]</h4>
+</header>
+<span>@T["Regex: <em>{0}</em>", Model.Activity.Regex]</span>
