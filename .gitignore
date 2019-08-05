@@ -176,6 +176,7 @@ profiling/
 .vscode/
 .build/
 .testPublish/
+.idea/
 
 nuget.exe
 .nuget/
