@@ -23,6 +23,9 @@ namespace WorkflowsRegex.OrchardCore.Activities {
         }
 
         public override string Name => nameof(ValidateFormFieldRegexTask);
+
+        public override LocalizedString DisplayText => T["Validate Form Field Regex Task"];
+
         public override LocalizedString Category => T["Validation"];
 
         private IStringLocalizer T { get; set; }

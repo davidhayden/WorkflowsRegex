@@ -4,7 +4,7 @@ using OrchardCore.Modules.Manifest;
     Name = "Regular Expression Validator",
     Author = "David Hayden",
     Website = "https://www.davidhayden.me",
-    Version = "2.0.0",
+    Version = "1.0.0-rc2",
     Description = "Adds a regular expression validator for form fields to Workflows.",
     Category = "Workflows",
     Dependencies = new[] {
